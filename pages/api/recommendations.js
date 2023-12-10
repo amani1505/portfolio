@@ -7,7 +7,7 @@ const recommendationCard = [
     designation:
       "Laravel | Django | SEO Expert | SEO Specialist | Graphics designer",
     view: "Hey everyone! I wanted to take a moment to recommend Robinson for any Frontend development  opportunities. I had the pleasure of working with him on multiple projects where he showcased a strong understanding of Frontend development  concepts and delivered high-quality code. He consistently demonstrated a willingness to learn and grow, and his enthusiasm for tackling new challenges was contagious. Osama is a reliable and dedicated team member who would be a great asset to any Frontend developers team. Highly recommended! 👍! 🌟",
-    linkednURL: "https://benethemmanuel.com",
+    linkednURL: "https://www.linkedin.com/in/beneth-emmanuel-54a05b217",
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ const recommendationCard = [
     image: "images/justin.jpg",
     designation: "Laravel | Django | Python Developer | IT Consultation",
     view: "I had the privilege of working alongside Robinson on multiple university projects, and I must say, his talent and work ethic truly stood out.  I wholeheartedly endorse Robinson for any opportunity that calls for a highly skilled and dedicated individual.",
-    linkednURL: "https://www.justinmsengi.com",
+    linkednURL: "https://www.linkedin.com/in/justin-msengi",
   },
   {
     id: 2,

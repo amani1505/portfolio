@@ -1,6 +1,8 @@
 import Typewriter from "typewriter-effect";
 import BannerLayout from "../Common/BannerLayout";
-import { Link } from "react-scroll";
+import Link from "next/link";
+import { FaDownload } from "react-icons/fa";
+import Download from "../Common/Intro/Download";
 
 const Banner = () => {
   return (
@@ -14,8 +16,10 @@ const Banner = () => {
                   Hello, Check This Out!
                 </h1>
               </div>
+              <div className="sm:hidden text-Snow sm:text-xl xl:text-2xl font-bold mt-2">My name is Robinson Emmanuel</div>
               <div className="">
                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
+                 
                   <span>
                     {"<"}
                     <span className="text-Green sm:text-base xl:text-lg font-bold">
@@ -48,14 +52,15 @@ const Banner = () => {
                 </div>
               </div>
               <Link
-                to="intro"
-                spy={true}
-                smooth={true}
-                duration={500}
-                offset={-50}
+                href="/robinsonanthony-resume.pdf"
+                target="_blank"
+                // spy={true}
+                // smooth={true}
+                // duration={500}
+                // offset={-50}
                 className="button"
               >
-                Explore
+                <span className="text-Snow"> Resume</span>
               </Link>
             </div>
             <div className="w-48 h-52 relative hidden md:block">
